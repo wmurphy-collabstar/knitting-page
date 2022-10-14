@@ -1,0 +1,104 @@
+body{
+  /* background-image: url("./woods.jpeg");
+  background-size: cover; */
+  background-image: url(./knitting.jpeg);
+  background-size: 2250px;
+  background-position: top right;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  font-family: 'Kalam', cursive;
+}
+
+#navbar {
+  display: flex;
+  width: 25%;
+  height: 75%;
+  top: 2em;
+  left: 4em;
+  position: fixed;
+  padding: 20px;
+  flex-direction: column;
+  text-align: left;
+}
+
+.title {
+  color: white;
+}
+
+.nav-link {
+  background-color: tan;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: .5em;
+  width: 5em;
+  margin: 1em 0;
+  text-align: center;
+  color: darkblue;
+  text-decoration: none;
+}
+
+.nav-link:hover, .nav-link:focus {
+  text-decoration: dotted-line;
+  color: palevioletred;
+  text-shadow: 1px 1px black;
+}
+
+#main-doc {
+  width: 55%;
+  margin: 2em 8em 2em 15em;
+}
+
+.main-section{
+  width: 75%;
+  margin: 1em;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 2em auto;
+  padding: 2em;
+  color: white;
+  background-color: lightcoral;
+
+}
+
+.main-section header {
+  text-align: center;
+}
+
+ @media (max-width: 1200px){
+  body {
+    flex-direction: column;
+    align-items: center;
+  }
+  #navbar {
+    align-items: center;
+    position: static;
+    margin: 2em;
+    height: auto;
+    width: 50%;
+    border-radius: 20px;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  #main-doc {
+    margin: 2em;
+    width: 90%;
+  }
+  .main-section {
+    padding: 4em;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 3.1rem;
+}
+
+.subtitle {
+  font-size: 2.25rem;
+}
